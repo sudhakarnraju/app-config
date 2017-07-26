@@ -13,4 +13,9 @@ logging:
 greeting:
   displayFortune: true
 
+logging:
+  level:
+    io:
+      pivotal: INFO
+
 quoteServiceURL: http://quote-service-qa.cfapps.io/quote
